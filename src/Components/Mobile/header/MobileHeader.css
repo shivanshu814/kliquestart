@@ -1,0 +1,29 @@
+.mobileheader {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+}
+
+img {
+    height: 2.5em;
+}
+
+.mobileheader h2 {
+    font-size: 2em;
+}
+
+.burger {
+    position: absolute;
+    right: 5%;
+
+}

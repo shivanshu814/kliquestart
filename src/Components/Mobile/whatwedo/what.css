@@ -1,0 +1,33 @@
+#whatwedo-mobile {
+    padding: 10vh 5vw 15vh 5vw;
+}
+
+#whatwedo-mobile h1 {
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
+#whatwedo-mobile .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+}
+
+#whatwedo-mobile .grid-container .grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--primary-color);
+    gap: 1em;
+}
+
+#whatwedo-mobile .grid-container .grid-item p {
+    color: var(--secondary-color);
+}
+
+#whatwedo-mobile .grid-container .grid-item img {
+    height: 60px;
+    width: 60px;
+}

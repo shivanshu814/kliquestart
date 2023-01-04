@@ -1,38 +1,230 @@
-.App {
+/* General CSS */
+
+section {
+  padding: 10vh 8vw 15vh 8vw;
+}
+
+h1 {
+  font-size: 3em;
+  color: var(--primary-color);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.nuito {
+  font-family: Nuito Sans, sans-serif;
+}
+
+.mobilesection {
+  padding: 10vh 5vw 15vh 5vw;
+}
+
+/* Navigation */
+
+nav {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 6em;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo img {
+  display: inline;
+  height: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo h2 {
+  display: inline;
+  margin-top: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu {
+  display: inline-block;
+  margin-top: 1%;
+}
+
+nav .menu li {
+  display: inline;
+}
+
+nav .menu li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 1em 1.2em;
+}
+
+nav button {
+  background-color: transparent;
+  padding: 0em 3em;
+  color: var(--primary-color);
+  border-radius: 5px;
+  outline: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  height: 40px;
+}
+
+/* Hero */
+
+#hero {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#hero h1 {
+  position: relative;
+  margin: 120px 0 10px 0;
+  font-size: 5em;
+  color: var(--primary-color);
+}
+
+#hero p {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+#hero button {
+  outline: transparent;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #44382D;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  color: var(--primary-color);
+}
+
+#hero .img img {
+  padding-top: 3em;
+}
+
+/* Why Kliquestart */
+
+#whyus {}
+
+#whyus h1 {
+  margin-bottom: 30px;
+}
+
+#whyus iframe {
+  width: 84vw;
+  height: 80vh;
+}
+
+/* What we do */
+
+#whatwedo {}
+
+#whatwedo .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 300px;
+  row-gap: 7vh;
+  column-gap: 6vw;
+  padding: 40px 0 0 0;
+}
+
+#whatwedo .grid-container .grid-item {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
   align-items: center;
+  color: var(--primary-color);
+  gap: 1em;
+}
+
+#whatwedo .grid-container .grid-item p {
+  color: var(--secondary-color);
+}
+
+#whatwedo .grid-container .grid-item img {
+  height: 60px;
+  width: 60px;
+}
+
+/* Contact Us*/
+
+#contactus {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e2080;
+  height: 600px;
+  width: 100vw;
+}
+
+#contactus .contact-flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+#contactus p {
+  color: var(--secondary-color);
+}
+
+#contactus a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#contactus .social {
+  position: relative;
+  left: 40%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 5em;
 }
 
-.App-link {
-  color: #61dafb;
+#contactus img {
+  height: 4em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer {
+  background-color: #1e1e20;
+  height: 250px;
+}
+
+footer .links {
+  height: 225px;
+}
+
+footer .copyright {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  height: 25px;
+  width: 100%;
+  bottom: 0;
+  font-size: 12px;
+  background-color: #000000;
+}
+
+
+@media screen and (max-width: 900px) {
+  #contactus {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  body {
+    overflow-x: hidden;
   }
 }

@@ -1,13 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans&display=swap');
+
+:root {
+  --bg-color: #2c2b27;
+  --primary-color: #ffffff;
+  --secondary-color: #b3b3b3;
+  --highlight-color: rgb(32, 109, 211);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-block: hidden;
+}
+
+html {
+  font-family: Montserrat, Nuito Sans;
+  overflow-x: hidden;
+  /* color: #000000; */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.blob1 {
+  position: absolute;
+  height: 300px;
+  width: 90vw;
+  left: -500px;
+  top: 20px;
+  border-radius: 100vh;
+  background-image: linear-gradient(180deg, rgba(241, 240, 237, 0.271) 0%, rgba(138, 123, 79, 0.27) 100%);
+  border: 1px solid #000000;
+  filter: blur(120px);
+  transform: rotate(54.37deg);
+}
+
+.blob2 {
+  position: absolute;
+  height: 250px;
+  width: 60vw;
+  right: 70px;
+  top: 70vh;
+  border-radius: 100vh 0 0 100vh;
+  background: linear-gradient(180deg, rgba(251, 168, 28, 0.1066) 0%, rgba(224, 86, 136, 0.0615) 100%);
+  border: 1px solid #000000;
+  filter: blur(120px);
+  transform: rotate(-24.29deg);
+}
+
+.blob3 {
+  position: absolute;
+  height: 30vw;
+  width: 20vw;
+  left: -150px;
+  top: 200vh;
+  border-radius: 100vh;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.354) 0%, rgba(138, 123, 79, 0.21) 100%);
+  border: 1px solid #000000;
+  filter: blur(120px);
+  transform: rotate(-24.29deg);
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 890px) {}

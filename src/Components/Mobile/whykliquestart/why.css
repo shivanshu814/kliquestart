@@ -1,0 +1,18 @@
+#mobilewhy {
+    padding: 10vw 5vw 15vw 5vw;
+}
+
+#mobilewhy h1 {
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
+#mobilewhy p {
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#mobilewhy iframe {
+    width: 90vw;
+    height: auto;
+}

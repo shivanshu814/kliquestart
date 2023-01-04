@@ -1,0 +1,35 @@
+.mobile-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background-color: #1e1e20;
+    height: 80vh;
+}
+
+.mobile-footer .links {
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mobile-footer .links a {
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 225px;
+}
+
+.mobile-footer .copyright {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    height: 25px;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+}

@@ -1,0 +1,28 @@
+#mobilehero {}
+
+#mobilehero h1 {
+    font-size: 3em;
+    margin: 0 0 90px 0;
+}
+
+#mobilehero p {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 1em;
+}
+
+#mobilehero button {
+    outline: transparent;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #44382D;
+    padding: 1em 2em;
+    margin: 50px 0 0 0;
+    font-size: 1em;
+    color: var(--primary-color);
+}
+
+#mobilehero .img img {
+    padding-top: 3em;
+}
