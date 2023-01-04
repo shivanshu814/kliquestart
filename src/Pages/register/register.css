@@ -1,3 +1,11 @@
+#RegistrationForm .center {
+    margin: 0px 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
 #RegistrationForm form {
     padding-top: 50px;
     display: flex;

@@ -33,7 +33,7 @@ export default function Home(){
         {isDesktop && <Why />}
         {isMobileDevice && <WhatwedoMobile />}
         {isDesktop && <Whatwedo />}
-            {/* <ContactForm /> */}
+            <ContactForm />
         </>
     )
 }
