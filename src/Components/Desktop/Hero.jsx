@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import heropic from '../../assets/heropic.png'
 
 function Hero() {
   return (
     <>
+        <Link to='/register'>
+        <button id='navbtn'>Register Now</button> 
+        </Link>
         <section id='hero'>
           <div className="text">
             <h1>Learn about <br /> startups</h1>
@@ -14,12 +18,13 @@ function Hero() {
              modi
              ex.
              </p>
-            <button>Register Now</button>
+             <Link to='/register'>
+             <button className='herobtn'>Register Now</button>
+             </Link>
           </div>
           <div className="img">
             <img src={heropic} alt="" />
           </div>
-        
         </section>
     </>
   )

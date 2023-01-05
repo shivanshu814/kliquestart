@@ -52,10 +52,10 @@ code {
   position: absolute;
   height: 250px;
   width: 60vw;
-  right: 70px;
+  right: 0px;
   top: 70vh;
   border-radius: 100vh 0 0 100vh;
-  background: linear-gradient(180deg, rgba(251, 168, 28, 0.1066) 0%, rgba(224, 86, 136, 0.0615) 100%);
+  background: linear-gradient(180deg, rgba(231, 152, 17, 0.107) 0%, rgba(213, 49, 109, 0.062) 100%);
   border: 1px solid #000000;
   filter: blur(120px);
   transform: rotate(-24.29deg);

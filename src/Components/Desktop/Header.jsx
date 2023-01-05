@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import Logo from "../../assets/LogoWhite.png";
 
 function Header() {
@@ -9,12 +11,11 @@ function Header() {
                 <h2>KliqueStart</h2>
             </div>
             <ul className="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Our Services</a></li>
-                <li><a href="">Contact Us</a></li>
+              <Link to='/'><li>Home</li></Link>
+              <Link to='/about'><li>About Us</li></Link>
+              <Link to='/services'><li>Our Services</li></Link>
+              <Link to='/contact'><li>Contact Us</li></Link>
             </ul>
-            <button>Register Now</button>
     </nav>
   )
 }

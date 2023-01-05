@@ -7,7 +7,7 @@ function Whatwedo() {
     <>
         <section id='whatwedo'>
         <div className="center">
-            <h1>What we do?</h1>
+            <h1>Our Servicess</h1>
         </div>
         <div className="grid-container">
             <div className="mentorship grid-item">

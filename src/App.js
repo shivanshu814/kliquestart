@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive'
 
 // Pages Import
