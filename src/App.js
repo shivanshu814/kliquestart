@@ -9,7 +9,7 @@ import Register from './Pages/register/register'
 
 // Component desktop import
 import Header from './Components/Desktop/Header'
-import Footer from './Components/Desktop/Footer'
+import Footer from './Components/Desktop/Footer/Footer'
 
 // Mobile Components Import
 

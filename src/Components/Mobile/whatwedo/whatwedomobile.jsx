@@ -13,33 +13,35 @@ function WhatwedoMobile() {
         <div className="grid-container">
             <div className="mentorship grid-item">
                 <img src={Icon} alt="" />
-                <h4>Mentorship</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <h4>Expert guidance and mentorship</h4>
+                <p className='nuito'>Our team of experienced mentors and industry experts is here to provide personalized guidance and support every step of the way. We offer one-on-one mentorship to help entrepreneurs develop and refine their ideas, create a solid business plan, and navigate the challenges of starting a business.</p>
             </div>
             <div className="networking grid-item">
                 <img src={Icon} alt="" />
-                <h4>Networking</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <h4>Training sessions</h4>
+                <p className='nuito'>Get the skills and knowledge you need to succeed with our range of training sessions led by industry experts. From market research and validation to business planning and strategy, we've got you covered.</p>
             </div>
             <div className="marketing grid-item">
                 <img src={Icon} alt="" />
-                <h4>Marketing & Publicity</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <h4>Access to resources</h4>
+                <p className='nuito'>We have everything you need to succeed from prototyping resources and tools to market research tools and business planning templates. Plus, our marketing resources will help you effectively reach your target market.</p>
             </div>
             <div className="team grid-item">
                 <img src={Icon} alt="" />
-                <h4>Team Building</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <h4>Networking and events</h4>
+                <p className='nuito'>Connect with potential partners and investors at our workshops and industry-specific events. We'll help you make the right connections to take your business to the next level.</p>
             </div>
             <div className="legal grid-item">
                 <img src={Icon} alt="" />
-                <h4>Legal Advisory</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <h4>Marketing and Publicity</h4>
+                <p className='nuito'>Once the idea passes through the judgement of the mentors and advice, after reforming into a solid idea, we help you in conducting market research and validate your idea to ensure that they meet the present market needs and wants. We offer workshops and training sessions on market research and customer validation techniques, as well as access to a range of tools and resources.</p>
             </div>
             <div className="more grid-item">
                 <img src={Icon} alt="" />
-                <h4>And Much More</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <h4>Team Building</h4>
+                <p className='nuito'>Team building 
+
+At KliqueStart, we understand the importance of building a strong and capable team in order to achieve success in business. That is why we offer a variety of resources and services to assist our clients in building and strengthening their teams. Our goal is to help our clients assemble a talented and diverse group of individuals who are well-equipped to tackle any challenge and achieve success.</p>
             </div>
         </div>
         </section>

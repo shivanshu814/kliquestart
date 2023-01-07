@@ -38,7 +38,9 @@ function Whatwedo() {
             <div className="more grid-item">
                 <img src={Icon} alt="" />
                 <h4>Team Building</h4>
-                <p className='nuito'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corporis.</p>
+                <p className='nuito'>Team building 
+
+At KliqueStart, we understand the importance of building a strong and capable team in order to achieve success in business. That is why we offer a variety of resources and services to assist our clients in building and strengthening their teams. Our goal is to help our clients assemble a talented and diverse group of individuals who are well-equipped to tackle any challenge and achieve success.</p>
             </div>
         </div>
         </section>

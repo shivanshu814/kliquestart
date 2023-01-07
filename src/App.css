@@ -30,6 +30,11 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 /* Navigation */
 
 nav {
@@ -72,18 +77,6 @@ nav .menu li {
   padding: 0em 1.2em;
 }
 
-/* nav button {
-  background-color: transparent;
-  padding: 0em 3em;
-  color: var(--primary-color);
-  border-radius: 5px;
-  outline: 0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ffffff;
-  height: 40px;
-} */
-
 /* Hero */
 
 #hero {
@@ -91,6 +84,7 @@ nav .menu li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-align: justify;
 }
 
 #navbtn {
@@ -110,7 +104,7 @@ nav .menu li {
 
 #hero h1 {
   position: relative;
-  margin: 120px 0 10px 0;
+  margin: 10px 0 10px 0;
   font-size: 5em;
   color: var(--primary-color);
 }
@@ -119,7 +113,8 @@ nav .menu li {
   color: var(--secondary-color);
   margin-bottom: 20px;
   line-height: 2;
-  font-size: 1.2em;
+  font-size: 1em;
+  width: 90%;
 }
 
 #hero .herobtn {
@@ -128,12 +123,14 @@ nav .menu li {
   border-radius: 5px;
   background-color: #44382D;
   padding: 1em 2em;
-  font-size: 1.2em;
+  font-size: 1em;
   color: var(--primary-color);
 }
 
-#hero .img img {
-  padding-top: 3em;
+#hero img {
+  height: 400px;
+  width: 1000px;
+  margin-left: 20%;
 }
 
 /* Why Kliquestart */
@@ -148,9 +145,16 @@ nav .menu li {
   color: var(--secondary-color);
 }
 
-#whyus iframe {
+#whyus video {
   width: 84vw;
   height: 80vh;
+  border-radius: 10px;
+}
+
+#my-video {
+  height: 80vh;
+  width: 84vw;
+  border-radius: 10px;
 }
 
 /* What we do */
@@ -230,6 +234,16 @@ footer {
 
 footer .links {
   height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+footer .links a {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 footer .copyright {

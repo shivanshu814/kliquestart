@@ -12,7 +12,9 @@
     margin-bottom: 20px;
 }
 
-#mobilewhy iframe {
+#mobilewhy #my-video-mb {
     width: 90vw;
     height: auto;
+    border-radius: 10px;
+    margin: 50px 0 0 0;
 }
