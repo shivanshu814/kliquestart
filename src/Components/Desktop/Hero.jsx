@@ -14,9 +14,8 @@ function Hero() {
               <div>
                 <h1>Learn about <br /> startups</h1>
                 <p className="nuito">
-                  Start-ups are companies or ventures that are focused on a single product or service that the founders want to bring to market.  <br />
+                  Start-ups are companies or ventures that are focused on a single product or service that the founders want to bring to market.
                     Here on KliqueStart you can learn everything about how to turn your idea into a flourishing start up. You can talk to mentors which have been in this field for many years. Inspire from their life changing advises and transform yourself to a self-made entrepreneur with our help. <br />
-                    Our goal is to revoke the fear of failure from the mindset of the people who abstain themselves of great start-up ideas which can turn into a whole new venture and help them to flourish in the sector. <br />
                 </p>
               </div>
               <Link to='/register'>

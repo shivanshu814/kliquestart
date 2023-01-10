@@ -19,11 +19,11 @@ import MobileFooter from './Components/Mobile/footer/mobilefooter';
 function App() {
 
   const isMobileDevice = useMediaQuery({
-    query: "(max-device-width: 1024px)",
+    query: "(max-width: 1024px)",
   });
 
   const isDesktop = useMediaQuery({
-    query: "(min-device-width: 1024px)",
+    query: "(min-width: 1024px)",
   });
 
 

@@ -9,11 +9,11 @@ function MobileHeader() {
   return (
     <>
       <div className="mobileheader">
-        <div className="brand">
+        <a href="/" className='logo'>
           <img src={Logo} alt="" />
-          <h2>Kliquestart</h2>
-        </div>
-        <Burger className='burger'/>
+          <h2>KliqueStart</h2>
+      </a>
+        {/* <Burger className='burger'/> */}
       </div>
     </>
   )

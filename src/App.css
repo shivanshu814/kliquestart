@@ -26,6 +26,10 @@ h1 {
   padding: 1vh 5vw 15vh 5vw;
 }
 
+.zp {
+  padding: 1vh 0 5vh 0;
+}
+
 button {
   cursor: pointer;
 }
@@ -109,12 +113,15 @@ nav .menu li {
   color: var(--primary-color);
 }
 
+#hero .text {
+  width: 100vw;
+}
+
 #hero p {
   color: var(--secondary-color);
   margin-bottom: 20px;
   line-height: 2;
   font-size: 1em;
-  width: 90%;
 }
 
 #hero .herobtn {

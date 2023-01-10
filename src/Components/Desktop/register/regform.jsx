@@ -1,4 +1,5 @@
 import React from 'react'
+import './register.css'
 
 // import heropic from '../../assets/heropic.png'
 

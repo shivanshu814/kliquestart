@@ -10,15 +10,16 @@ import ContactForm from '../Components/Desktop/ContactForm'
 import MobileHero from '../Components/Mobile/hero/mobilehero'
 import Mobilewhy from '../Components/Mobile/whykliquestart/mobilewhy'
 import WhatwedoMobile from '../Components/Mobile/whatwedo/whatwedomobile'
+import MobileContact from '../Components/Mobile/contact/contactmobile'
 
 export default function Home(){
 
     const isMobileDevice = useMediaQuery({
-        query: "(max-device-width: 1024px)",
+        query: "(max-width: 1024px)",
       });
       
       const isDesktop = useMediaQuery({
-        query: "(min-device-width: 1024px)",
+        query: "(min-width: 1024px)",
       });
 
     return(
@@ -33,7 +34,8 @@ export default function Home(){
         {isDesktop && <Why />}
         {isMobileDevice && <WhatwedoMobile />}
         {isDesktop && <Whatwedo />}
-            <ContactForm />
+        {isMobileDevice && <MobileContact />}
+        {isDesktop && <ContactForm />}
         </>
     )
 }
