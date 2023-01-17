@@ -18,7 +18,7 @@ return preg_replace('/[nr|!/<>^$%*&]+/','',$form_field);
 $email_address  = filter_email_header($email_address);
 
 #Send email
-$headers = "From: $email_addressn";
+$headers = "From: $email_address\n";
 $sent = mail('adityamali2003@icloud.com', 'Name: $name', $name, 'Phone: ' , $phone , 'Email: ', $email_address,'College/Institution: ', $college , 'Address', $city ,",", $state ,",", 'Zip Code: ', $zip_code ,'Feedback Form Submission', $idea, $headers);
 
 #Thank user or notify them of a problem
