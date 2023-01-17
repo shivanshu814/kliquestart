@@ -9,7 +9,7 @@ function Mobilewhy() {
     <>
         <section id='mobilewhy' className='mobilesection'>
         <h1>Why KliqueStart is the best choice?</h1 >
-        <p className='nuito'>Watch this one minuite video to find out why you should join us</p>
+        <p className='nuito'>Watch this one minute video to find out why you should join us</p>
         <video
     id="my-video-mb"
     class="video-js"
