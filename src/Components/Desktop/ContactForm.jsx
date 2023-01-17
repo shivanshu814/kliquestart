@@ -12,7 +12,7 @@ function Why() {
         <div class="contact-flex">
             <div class="phonemail">
             <h1>Contact Us</h1>
-                <p>Phone: <a href="tel:+919555048041">919555048041</a></p>
+                <p>Phone: <a href="tel:+91 9555048041">+91 9555048041</a></p>
                 <p>Email: <a href="mailto:contact@kliquestart.com">contact@kliquestart.com</a></p>
             </div>
             <div class="social">
