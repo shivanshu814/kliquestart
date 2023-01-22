@@ -33,11 +33,8 @@ if ($sent) {
 <p>Thank you for your feedback.</p>
 </body>
 </html>
-<?php
-
-} else {
-
-?><html>
+<?php 
+} else { ?><html>
 <head>
 <title>Something went wrong</title>
 </head>

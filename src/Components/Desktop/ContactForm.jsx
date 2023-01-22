@@ -23,15 +23,16 @@ function Why() {
 								contact@kliquestart.com
 							</a>
 						</p>
+						<p>Address: Dhankawadi, Katraj, Pune 411043</p>
 					</div>
 					<div class='social'>
 						<a href='https://twitter.com/KliqueStart'>
 							<img src={Twitter} alt='' />
 						</a>
-						<a href='https://www.linkedin.com/company/kliquestart/'>
+						<a href='https://www.linkedin.com/company/kliquestart'>
 							<img src={Linkedin} alt='' />
 						</a>
-						<a href='https://www.instagram.com/kliquestart/'>
+						<a href='https://www.instagram.com/kliquestart'>
 							<img src={Instagram} alt='' />
 						</a>
 					</div>

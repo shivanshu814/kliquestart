@@ -24,6 +24,7 @@ function MobileContact() {
 								contact@kliquestart.com
 							</a>
 						</p>
+						<p>Address: Dhankawadi, Katraj, Pune 411043</p>
 					</div>
 					<div className='social_m'>
 						<a href='https://twitter.com/KliqueStart'>
