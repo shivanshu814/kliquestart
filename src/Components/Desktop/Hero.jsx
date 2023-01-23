@@ -11,6 +11,7 @@ function Hero() {
 			<Link to='/register'>
 				<button id='navbtn'>Register Now</button>
 			</Link>
+
 			<section id='hero'>
 				<div className='text'>
 					<div>
