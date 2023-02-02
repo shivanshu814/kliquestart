@@ -6,7 +6,7 @@ import React from 'react';
 import Twitter from '../../assets/Twitter.png';
 import Linkedin from '../../assets/Linkedin.png';
 import Instagram from '../../assets/Instagram.png';
-
+import Youtube from '../../assets/youtube-square-color-icon.png';
 function Why() {
 	return (
 		<>
@@ -29,11 +29,14 @@ function Why() {
 						<a href='https://twitter.com/KliqueStart'>
 							<img src={Twitter} alt='' />
 						</a>
+						<a href='https://www.instagram.com/kliquestart'>
+							<img src={Instagram} alt='' />
+						</a>
 						<a href='https://www.linkedin.com/company/kliquestart'>
 							<img src={Linkedin} alt='' />
 						</a>
-						<a href='https://www.instagram.com/kliquestart'>
-							<img src={Instagram} alt='' />
+						<a href='https://youtu.be/f-wdROS936c'>
+							<img src={Youtube} alt='' />
 						</a>
 					</div>
 				</div>

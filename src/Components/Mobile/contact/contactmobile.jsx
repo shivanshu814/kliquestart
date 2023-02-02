@@ -7,6 +7,7 @@ import './contact_mobile.css';
 import Twitter from '../../../assets/Twitter.png';
 import Linkedin from '../../../assets/Linkedin.png';
 import Instagram from '../../../assets/Instagram.png';
+// import Youtube from '../../assets/youtube-square-color-icon.png';
 
 function MobileContact() {
 	return (
@@ -36,6 +37,9 @@ function MobileContact() {
 						<a href='https://www.instagram.com/kliquestart/'>
 							<img src={Instagram} alt='' />
 						</a>
+						{/* <a href='https://youtu.be/f-wdROS936c'>
+							<img src={Youtube} alt='' />
+						</a> */}
 					</div>
 				</div>
 			</section>

@@ -257,11 +257,11 @@ nav .menu li {
 
 #contactus .social {
 	position: relative;
-	left: 40%;
+	left: 30%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 5em;
+	gap: 3em;
 }
 
 #contactus img {
