@@ -2,9 +2,10 @@
 
 import React from 'react';
 import './herostyle.css';
-
+// import Logo from '../../assets/Brochure.pdf';
+// import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../hero/Brochure.pdf';
 // import heropic from '../../assets/heropic.png'
 
 function Mobilehero() {
@@ -28,10 +29,11 @@ function Mobilehero() {
 					<Link to='/register'>
 						<button>Register Now</button>
 					</Link>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href='Brochure.pdf' download='Brochure.pdf'>
+						<button id='button2'>Brochure</button>
+					</a>
 				</div>
-				{/* <div className="img">
-            <img src={heropic} alt="" />
-          </div> */}
 			</section>
 		</>
 	);

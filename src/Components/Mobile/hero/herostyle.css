@@ -1,28 +1,56 @@
-#mobilehero {}
+/** @format */
+
+#mobilehero {
+}
 
 #mobilehero h1 {
-    font-size: 3em;
-    margin: 0 0 90px 0;
+	font-size: 3em;
+	margin: 0 0 90px 0;
+}
+
+#mobilehero nav2btn {
+	position: absolute;
+	top: 130px;
+	right: 15%;
+	background-color: transparent;
+	padding: 0em 3em;
+	color: var(--primary-color);
+	border-radius: 5px;
+	outline: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+	height: 40px;
 }
 
 #mobilehero p {
-    color: var(--secondary-color);
-    margin-bottom: 20px;
-    line-height: 1.4;
-    font-size: 1em;
+	color: var(--secondary-color);
+	margin-bottom: 20px;
+	line-height: 1.4;
+	font-size: 1em;
 }
 
 #mobilehero button {
-    outline: transparent;
-    border: transparent;
-    border-radius: 5px;
-    background-color: #44382D;
-    padding: 1em 2em;
-    margin: 30px 0 0 0;
-    font-size: 1em;
-    color: var(--primary-color);
+	outline: transparent;
+	border: transparent;
+	border-radius: 5px;
+	background-color: #44382d;
+	padding: 1em 2em;
+	margin: 30px 0 0 0;
+	font-size: 1em;
+	color: var(--primary-color);
 }
 
+#mobilehero button2 {
+	outline: transparent;
+	border: transparent;
+	border-radius: 5px;
+	background-color: #44382d;
+	padding: 1em 2em;
+	margin: 30px 0 0 0;
+	font-size: 1em;
+	color: var(--primary-color);
+}
 #mobilehero .img img {
-    padding-top: 3em;
+	padding-top: 3em;
 }
